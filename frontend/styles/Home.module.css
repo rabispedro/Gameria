@@ -18,20 +18,22 @@
 }
 
 .footer {
+  margin-top: 0;
   width: 100%;
   height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #EEEEEE;
 }
 
-.footer a {
+/*.footer a {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
+}*/
 
 .title a {
   color: #0070f3;
@@ -48,6 +50,8 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: 'Press Start 2P', cursive;
+  color: #7F5AF0;
 }
 
 .title,
@@ -55,9 +59,29 @@
   text-align: center;
 }
 
+
+.descriptionFirst{
+  margin-top: 3rem;
+  line-height: 1.5;
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #EEEEEE;
+}
+
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #EEEEEE;
+}
+
+.descriptionThird{
+  margin-top: 6rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #EEEEEE;
 }
 
 .code {
@@ -78,7 +102,7 @@
   margin-top: 3rem;
 }
 
-.card {
+/*.card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -106,7 +130,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
+}*/
 
 .logo {
   height: 1em;
