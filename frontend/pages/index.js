@@ -67,8 +67,8 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>Carinhosamente feito por <a 
-        href="https://github.com/andreiammoraes">Andréia</a> e <a 
-        href="https://github.com/rabispedro">Pedro</a>
+        href="https://github.com/andreiammoraes" target="_blank">Andréia</a> e <a 
+        href="https://github.com/rabispedro" target="_blank">Pedro</a>
           {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
       </span> */}
